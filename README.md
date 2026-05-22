@@ -1,7 +1,7 @@
-# codebase-to-markdown
-Convert your codebase into a formatted markdown file for inference.
+# codebase-to-xml
+Convert your codebase into a formatted xml file for inference.
 
-This tool converts all text files in your project into a neatly formatted markdown file (`codebase.md`), respecting files and directories defined in `.gitignore`. It offers two methods to achieve this: a Bash script (`codebase.sh`) and a Rust CLI program (`codebase-to-markdown`).
+This tool converts all text files in your project into a neatly formatted xml file (`codebase.xml`), respecting files and directories defined in `.gitignore`. It offers two methods to achieve this: a Bash script (`codebase.sh`) and a Rust CLI program (`codebase-to-xml`).
 
 ---
 
@@ -21,17 +21,17 @@ This tool converts all text files in your project into a neatly formatted markdo
 ### Option 1: Using the Rust CLI
 1. Install the CLI tool using Cargo:
    ```bash
-   cargo install codebase-to-markdown
+   cargo install codebase-to-xml
    ```
    Alternatively, you can install the CLI tool using Cargo from the GitHub repository:
    ```bash
-   cargo install --git https://github.com/Quantaindew/codebase-to-markdown
+   cargo install --git https://github.com/Quantaindew/codebase-to-xml
    ````
 2. Run the tool:
    ```bash
-   codebase-to-markdown
+   codebase-to-xml
    ```
-3. Your codebase will be formatted into `codebase.md`.
+3. Your codebase will be formatted into `codebase.xml`.
 
 ### Option 2: Using the Bash Script
 1. Ensure the script has executable permissions after downloading:
@@ -42,12 +42,12 @@ This tool converts all text files in your project into a neatly formatted markdo
    ```bash
    ./codebase.sh
    ```
-3. Your codebase will be formatted into `codebase.md`.
+3. Your codebase will be formatted into `codebase.xml`.
 
 ---
 
 ## Output
-In both methods, the output is a `codebase.md` file containing:
+In both methods, the output is a `codebase.xml` file containing:
 - A project structure tree.
 - The contents of all text files (excluding binary/image files and those in `.gitignore`), wrapped in `<file src="...">` tags.
 

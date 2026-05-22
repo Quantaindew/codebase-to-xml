@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SCRIPT_NAME=$(basename "$0")
-OUTPUT_FILE="codebase.md"
+OUTPUT_FILE="codebase.xml"
 rm -f "$OUTPUT_FILE"
 
 echo "<codebase>" > "$OUTPUT_FILE"

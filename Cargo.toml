@@ -1,11 +1,11 @@
 [package]
-name = "codebase-to-markdown"
+name = "codebase-to-xml"
 version = "0.1.2"
 edition = "2024"
 authors = ["Sanjay S Kumar"]
-description = "A tool to convert codebase to markdown format"
+description = "A tool to convert codebase to xml format"
 license = "MIT"
-repository = "https://github.com/Quantaindew/codebase-to-markdown"
+repository = "https://github.com/Quantaindew/codebase-to-xml"
 readme = "README.md"
 
 [dependencies]

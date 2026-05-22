@@ -10,7 +10,7 @@ use std::io::{self, BufWriter, Write};
 use std::path::{Path, PathBuf};
 use std::process;
 
-const OUTPUT_FILE: &str = "codebase.md";
+const OUTPUT_FILE: &str = "codebase.xml";
 
 fn main() {
     if let Err(e) = run() {
